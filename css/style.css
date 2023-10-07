@@ -1,49 +1,63 @@
-
-
+/* Fonts */
 body {
-    
-    margin: 0;
-    text-align: center;
-    
-    background-color:#e4f9f5;
-    font-family: 'Merriweather', serif;
-
-    
-    
-}
-.top-container{
-    padding-top: 100px;
+  font-family: 'Arial', sans-serif;
 }
 
-    
-
-h1{
-    margin: 0;
-    font-family: 'Sacramento', cursive;
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
 }
 
-h2{
-    font-family: 'Montserrat', sans-serif;
+/* Header */
+header {
+  background-image: url('salon.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
 
+header h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
-h3{
-    font-family: 'Montserrat', sans-serif;
+
+/* Navigation */  
+nav a {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+} 
+
+nav a:hover {
+  background: #ccc;
 }
-.top_c{
-    position: absolute;
-    right: 150px;
-    top:50px;
-    
+
+/* Main Content */
+main h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;  
 }
-.bot_c{
-    position: absolute;
-    left: 150px;
-    bottom: 300px;
-    
+
+main h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
-.pics{
-    height:200px;
-    width: 200px;
+
+main p {
+  line-height: 1.5;
+  margin-bottom: 15px;
 }
-   
-    
+
+/* Footer */
+footer {
+  font-size: 14px;
+  padding: 40px 0;
+}
+
+footer p {
+  margin: 0;
+}
